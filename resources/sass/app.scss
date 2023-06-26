@@ -1,0 +1,107 @@
+// Fonts
+@import url('https://fonts.bunny.net/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import 'bootstrap/scss/bootstrap';
+
+// Fontawesome
+@import '/node_modules/@fortawesome/fontawesome-free/css/all.min.css';
+
+.object-fit-cover {
+    object-fit: cover;
+}
+
+.object-fit-contain {
+    object-fit: contain;
+}
+
+.winner-image {
+    max-height: 25rem;
+    margin: 1rem;
+}
+
+.competition-header-image {
+    aspect-ratio: 1/1;
+    object-fit: contain;
+}
+
+.show-ratings-image {
+    max-height: 30rem;
+}
+
+.competition-card {
+    height: 40rem;
+}
+
+.card-img-top {
+    height: 15rem;
+    object-fit: contain;
+}
+
+.vertical-center {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.lines-2 {
+    line-height: 1.2em;
+    min-height: 2.4em;
+    max-height: 2.4em;
+    overflow: hidden;
+}
+
+.object-position-bottom {
+    object-position: bottom;
+}
+
+.mouse-hover {
+    cursor: pointer;
+}
+
+.comp_title {
+    min-height: 3em;
+    line-height: 1.2em;
+}
+
+.comp_description {
+    height: 4em;
+    line-height: 1.2em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.submission_title {
+    min-height: 2em;
+    max-height: 2em;
+    line-height: 1.2em;
+}
+
+.submission_description {
+    min-height: 5em;
+    max-height: 5em;
+    line-height: 1.2em;
+}
+
+.delete_button {
+    font-size: 1.5em;
+}
+
+.test {
+    min-height: 3em;
+    max-height: 3em;
+}
+.rating_header {
+    min-height: 45px;
+    max-height: 45px;
+}
+
+
+.rating_card {
+    min-height: 175px; /* Set the minimum height for the card */
+    max-height: 250px; /* Set the maximum height for the card */
+    overflow: auto; /* Enable vertical scrolling when content exceeds max height */
+}

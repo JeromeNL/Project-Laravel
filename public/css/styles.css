@@ -1,0 +1,10 @@
+.title-multiline {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 2.4em;
+}
+
+.title-multiline::after {
+    content: '';
+}
